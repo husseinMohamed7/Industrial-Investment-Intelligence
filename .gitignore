@@ -1,0 +1,33 @@
+# PostgreSQL
+*.pgsql
+*.psql
+*.sql
+*.dump
+*.backup
+*.pgdata
+*.pgpass
+pgdata/
+pg_log/
+pg_xlog/
+pg_hba.conf
+postgresql.conf
+
+# Apache NiFi
+nifi-*.nar
+nifi-*.jar
+nifi-*.war
+nifi-*.zip
+nifi-*.tar.gz
+nifi-content_repository/
+nifi-database_repository/
+nifi-flowfile_repository/
+nifi-provenance_repository/
+nifi-logs/
+nifi_state/
+conf/flow.xml.gz
+conf/authorizations.xml
+conf/users.xml
+conf/groups.xml
+conf/bootstrap.conf
+conf/nifi.properties
+work/
